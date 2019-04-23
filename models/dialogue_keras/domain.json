@@ -1,0 +1,26 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_intend_askWeather",
+    "intent_order_ticket",
+    "entity_location",
+    "entity_time",
+    "slot_from_0",
+    "slot_location_0",
+    "slot_time_0",
+    "slot_to_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_location",
+    "prev_utter_tell_result",
+    "prev_utter_ask_time"
+  ]
+}

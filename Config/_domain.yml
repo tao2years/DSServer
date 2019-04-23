@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_tell_result
+- utter_ask_time
+entities:
+- location
+- time
+intents:
+- intend_askWeather
+- goodbye
+- greet
+- order_ticket
+slots:
+  from:
+    type: text
+  location:
+    type: text
+  time:
+    type: text
+  to:
+    type: text
+templates:
+  utter_ask_location:
+  - text: 提供一下地点
+  utter_ask_time:
+  - text: 提供一下时间
+  utter_goodbye:
+  - text: 再见
+  utter_greet:
+  - text: 你好
+  - text: 有什么可以帮您的
+  utter_tell_result:
+  - text: 您查询的是{location}{time}的天气

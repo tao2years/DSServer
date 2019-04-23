@@ -1,0 +1,40 @@
+## intent:goodbye
+- 再见
+- 拜拜
+
+## intent:greet
+- 你好
+- 有什么可以帮您的
+- 在的
+
+## intent:intend_askWeather
+- [北京](location)[今天](time)天气如何
+- [深圳](location)[后天](time)天气如何
+- [深圳](location)[今天](time)天气怎么样
+- 帮我查一下[深圳](location)[明天](time)的天气
+- [深圳](location)[今天](time)天气
+- [今天](time)[深圳](location)的天气怎么样
+- [北京](location)的
+
+## intent:utter_ask_location
+- [今天](time)天气怎么样
+- [明天](time)天气怎么样
+- [后天](time)天气怎么样
+- [明天](time)天气如何
+- [今天](time)天气如何
+
+## intent:utter_ask_none
+- 帮我查一下天气
+- 查天气
+- 天气如何
+- 天气怎么样
+
+## intent:utter_ask_time
+- [北京](location)的天气
+- [北京](location)的
+- [北京](location)
+- [天津](location)
+- [石家庄](location)
+
+## lookup:location
+  location.txt

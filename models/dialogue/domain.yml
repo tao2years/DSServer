@@ -1,0 +1,52 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_time
+- utter_ask_location
+- utter_tell_result
+config:
+  store_entities_as_slots: true
+entities:
+- time
+- location
+forms: []
+intents:
+- intend_askWeather:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- order_ticket:
+    use_entities: true
+slots:
+  from:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  to:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: 提供一下地点
+  utter_ask_time:
+  - text: 提供一下时间
+  utter_goodbye:
+  - text: 再见
+  utter_greet:
+  - text: 你好
+  - text: 有什么可以帮您的
+  utter_tell_result:
+  - text: 您查询的是{location}{time}的天气

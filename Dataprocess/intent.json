@@ -1,0 +1,22 @@
+{
+  "0": {
+    "Cname": "\u95ee\u5019",
+    "Ename": "greet",
+    "Description": "\u95ee\u5019"
+  },
+  "1": {
+    "Cname": "\u95ee\u65f6\u95f4",
+    "Ename": "ask_time",
+    "Description": "\u8be2\u95ee\u65f6\u95f4"
+  },
+  "2": {
+    "Cname": "\u95ee\u5730\u70b9",
+    "Ename": "ask_location",
+    "Description": "\u8be2\u95ee\u5730\u70b9"
+  },
+  "3": {
+    "Cname": "\u786e\u8ba4",
+    "Ename": "confirm",
+    "Description": "\u786e\u8ba4\u4fe1\u606f"
+  }
+}

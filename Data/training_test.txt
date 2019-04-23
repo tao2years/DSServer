@@ -1,0 +1,48 @@
+## Generated Story No1
+* greet
+    - utter_greet
+* deny
+    - utter_goodbye
+
+## Generated Story No2
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+    
+## Generated Story No3  
+* intend_askWeather{"location": "\u5317\u4eac", "time": "\u4eca\u5929"}
+    - tell_result
+ 
+## Generated Story No4  
+* intend_askWeather
+    - ask_time
+* inform_time{"time":"\u4eca\u5929"}
+    - ask_location
+* inform_location{"location": "\u5317\u4eac"}
+    - tell_result
+    - action_restart
+
+## Generated Story No5  
+* intend_askWeather
+    - ask_location
+* inform_location{"location": "\u5317\u4eac"}
+    - ask_time
+* inform_time{"time":"\u4eca\u5929"}
+    - tell_result
+    
+## Generated Story No6  
+* intend_askWeather
+    - ask_location
+* inform_location{"location": "\u5317\u4eac"}
+    - ask_time
+* inform_time{"time":"\u660e\u5929"}
+    - tell_result
+    
+## Generated Story No7 
+* intend_askWeather
+    - ask_location
+* inform_location{"location": "\u6210\u90fd"}
+    - ask_time
+* inform_time{"time":"\u660e\u5929"}
+    - tell_result

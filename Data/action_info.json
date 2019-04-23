@@ -1,0 +1,1 @@
+[{"Cname": "打招呼", "Description": "你好\n有什么可以帮您的", "Ename": "utter_greet"}, {"Cname": "问地点", "Description": "提供一下地点", "Ename": "utter_ask_location"}, {"Cname": "问时间", "Description": "提供一下时间", "Ename": "utter_ask_time"}, {"Cname": "再见", "Description": "再见", "Ename": "utter_goodbye"}, {"Cname": "给答案", "Description": "答案是...", "Ename": "utter_tell_result"}]

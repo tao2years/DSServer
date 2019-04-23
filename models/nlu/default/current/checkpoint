@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\\350\275\257\344\273\266\346\211\200\\Dialogue_System\\DSServer\\models/nlu/default\\current\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "F:\\\350\275\257\344\273\266\346\211\200\\Dialogue_System\\DSServer\\models/nlu/default\\current\\intent_classifier_tensorflow_embedding.ckpt"

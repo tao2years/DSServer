@@ -1,0 +1,1 @@
+Select e.item_id, e.heroid,h.item_name,h.total_price,he.`name` from equipmenttohero1 as e join equipment as h JOIN hero as he WHERE e.item_id=h.item_id and e.heroid=he.heroid

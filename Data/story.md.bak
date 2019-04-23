@@ -1,0 +1,66 @@
+## Generated Story 8422343695345614855
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 3266184917724321317
+* greet
+    - utter_greet
+    - export
+
+## Generated Story 216717077508190014
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 5990405602122134592
+* utter_ask_none
+    - ask_time
+* utter_ask_location{"time": "\u4eca\u5929"}
+    - slot{"time": "\u4eca\u5929"}
+* intend_askWeather{"location": "\u5317\u4eac"}
+    - slot{"location": "\u5317\u4eac"}
+    - tell_result
+    
+## Generated Story 1
+* utter_ask_none
+    - ask_location
+* utter_ask_time{"location": "\u5317\u4eac"}
+    - slot{"location": "\u5317\u4eac"}
+* intend_askWeather{"time": "\u4eca\u5929"}
+    - slot{"time": "\u4eca\u5929"}
+    - tell_result
+    
+## Generated Story 2
+* utter_ask_time{"location": "\u5317\u4eac"}
+    - slot{"location": "\u5317\u4eac"}
+* intend_askWeather{"time": "\u4eca\u5929"}
+    - slot{"time": "\u4eca\u5929"}
+    - tell_result
+    
+## Generated Story 3
+* utter_ask_location{"time": "\u4eca\u5929"}
+    - slot{"time": "\u4eca\u5929"}
+* intend_askWeather{"location": "\u5317\u4eac"}
+    - slot{"location": "\u5317\u4eac"}
+    - tell_result
+    
+## Generated Story 4
+* intend_askWeather{"location": "\u5317\u4eac","time": "\u4eca\u5929"}
+    - slot{"location": "\u5317\u4eac"}
+    - slot{"time": "\u4eca\u5929"}
+    - tell_result
+* utter_ask_time{"location": "\u4e0a\u6d77"}
+    - slot{"location": "\u4e0a\u6d77"}
+    - tell_result
+    
+## Generated Story 5
+* intend_askWeather{"location": "\u5317\u4eac","time": "\u4eca\u5929"}
+    - slot{"location": "\u5317\u4eac"}
+    - slot{"time": "\u4eca\u5929"}
+    - tell_result
+* utter_ask_location{"time": "\u540e\u5929"}
+    - slot{"time": "\u540e\u5929"}
+    - tell_result
