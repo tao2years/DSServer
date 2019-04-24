@@ -1,1 +1,1 @@
-[{"Cname": "地点", "Description": "地点词槽", "Ename": "location"}, {"Cname": "时间", "Description": "时间词槽", "Ename": "time"}, {"Cname": "出发地", "Ename": "from", "Description": ""}, {"Cname": "目的地", "Ename": "to", "Description": ""}]
+[{"Cname": "航班号", "Description": "航班号", "Ename": "flight_no"}, {"Cname": "值机时间", "Description": "时间词槽", "Ename": "check_time"}, {"Cname": "值机人", "Description": "值机人", "Ename": "check_person"}]

@@ -1,0 +1,29 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "check_person",
+        "flight_no",
+        "check_time"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_tell_result": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20190424-160505",
+  "rasa_core": "0.13.3",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.3"
+}

@@ -1,1 +1,1 @@
-[{"Cname": "问候的", "Description": "问候", "Ename": "greet"}, {"Cname": "问天气", "Description": "询问天气信息", "Ename": "intend_askWeather"}, {"Cname": "再见", "Description": "拜拜", "Ename": "goodbye"}, {"Cname": "订票", "Description": "订票", "Ename": "order_ticket"}]
+[{"Cname": "问候", "Description": "打招呼", "Ename": "greet"}, {"Cname": "值机", "Description": "意图值机", "Ename": "check_in"}, {"Cname": "再见", "Description": "对话结束", "Ename": "goodbye"}]

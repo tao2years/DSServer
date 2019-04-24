@@ -1,37 +1,44 @@
-%YAML 1.1
----
 actions:
 - utter_greet
-- utter_goodbye
-- utter_ask_location
-- utter_tell_result
 - utter_ask_time
+- utter_ask_flightNo
+- utter_goodbye
+- utter_tell_result
+- utter_ask_checkPerson
+- tell_result
 entities:
-- location
-- time
+  - flight_no
+  - check_time
+  - check_person
 intents:
-- intend_askWeather
-- goodbye
 - greet
-- order_ticket
+- check_in
+- goodbye
+- tell_check_person
+- tell_check_time
+- tell_check_no
 slots:
-  from:
+  flight_no:
     type: text
-  location:
+  check_time:
     type: text
-  time:
-    type: text
-  to:
+  check_person:
     type: text
 templates:
-  utter_ask_location:
-  - text: 提供一下地点
-  utter_ask_time:
-  - text: 提供一下时间
-  utter_goodbye:
-  - text: 再见
   utter_greet:
   - text: 你好
   - text: 有什么可以帮您的
+  utter_ask_time:
+  - text: 请问您想何时值机
+  - text: 值机时间？
+  utter_ask_flightNo:
+  - text: 提供一下航班号
+  - text: 请问您的航班号是多少
+  utter_goodbye:
+  - text: 再见
+  - text: 拜拜
+  - text: 下次见
   utter_tell_result:
-  - text: 您查询的是{location}{time}的天气
+  - text: 答案是{flight_no}...{check_time}...{check_person}
+  utter_ask_checkPerson:
+  - text: 请问您为何人值机，自己还是他人？

@@ -16,7 +16,7 @@ def train_nlu_gao():
     from rasa_nlu_gao import config
     from rasa_nlu_gao.model import Trainer
 
-    training_data = load_data('data/rasa_training_data.json')
+    training_data = load_data('data/training.md')
     trainer = Trainer(config.load("configs/nlu_config.yml"))
     trainer.train(training_data)
     model_directory = trainer.persist('models/nlu_gao/',
@@ -30,17 +30,17 @@ def train_nlu():
     from rasa_nlu import config
     from rasa_nlu.model import Trainer
 
-    training_data = load_data('data/training_data.md')
+    training_data = load_data('data/nlu.md')
     trainer = Trainer(config.load("configs/nlu_embedding_config.yml"))
     trainer.train(training_data)
-    model_directory = trainer.persist('models/nlu/', fixed_model_name="current")
+    model_directory = trainer.persist('models/nlu/', fixed_model_name="New")
 
     return model_directory
 
 
 def train_dialogue_keras(domain_file="Config/_domain.yml",
-                         model_path="models/dialogue_keras",
-                         training_data_file="data/story.md"):
+                         model_path="models/new_dialogue_keras",
+                         training_data_file="data/nlu.md"):
     fallback = FallbackPolicy(
         fallback_action_name="action_default_fallback",
         nlu_threshold=0.5,
@@ -87,8 +87,8 @@ def train_dialogue_transformer(domain_file="domain.yml",
 
 
 def train_dialogue_embed(domain_file="config/_domain.yml",
-                         model_path="models/dialogue_embed",
-                         training_data_file="data/story.md"):
+                         model_path="models/new_dialogue_embed",
+                         training_data_file="data/stories.md"):
     fallback = FallbackPolicy(
         fallback_action_name="action_default_fallback",
         nlu_threshold=0.5,
@@ -109,7 +109,8 @@ def train_dialogue_embed(domain_file="config/_domain.yml",
     return agent
 
 # train_dialogue_keras()
-
+# train_nlu()
+train_dialogue_embed()
 
 # python -m rasa_core_sdk.endpoint --actions actions &
 
@@ -117,4 +118,5 @@ def train_dialogue_embed(domain_file="config/_domain.yml",
 #  --endpoints endpoints.yml
 
 # python -m rasa_core.train interactive -o models/dialogue -d config/_domain.yml -c policy/keras_policy.yml -s data/story.md --nlu models/nlu/default/current --endpoints endpoints.yml
+# python -m rasa_core.train interactive -o models/new_dialogue_embed -d config/_domain.yml -c policy/embed_policy.yml -s data/stories.md --nlu models/nlu/default/new --endpoints endpoints.yml
 

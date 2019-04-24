@@ -1,0 +1,27 @@
+{
+  "states": [
+    "intent_check_in",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_tell_check_no",
+    "intent_tell_check_person",
+    "intent_tell_check_time",
+    "slot_check_person_0",
+    "slot_check_time_0",
+    "slot_flight_no_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_greet",
+    "prev_utter_ask_time",
+    "prev_utter_ask_flightNo",
+    "prev_utter_goodbye",
+    "prev_utter_tell_result",
+    "prev_utter_ask_checkPerson",
+    "prev_action_tell_result"
+  ]
+}

@@ -5,7 +5,7 @@ pipeline:
 - name: "ner_crf"
 - name: "ner_duckling"
   language: "zh$core"
-  dimensions: [ "time", "number", "duration", "phone-number"]
+  dimensions: [ "duration", "phone-number"]
 - name: "intent_featurizer_count_vectors"
   OOV_token: oov
   token_pattern: '(?u)\b\w+\b'

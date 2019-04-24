@@ -21,3 +21,9 @@ Rasa Core server is up and running on http://localhost:5005
 Rasa process starting
 Restoring parameters from models/nlu/default/current\intent_classifier_tensorflow_embedding.ckpt
 Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/default/new\intent_classifier_tensorflow_embedding.ckpt
+Restoring parameters from models/new_dialogue_embed\policy_1_EmbeddingPolicy\tensorflow_embedding.ckpt
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'tell_result'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'tell_result'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.

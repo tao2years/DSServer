@@ -1,0 +1,412 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "有什么可以帮您的"
+      },
+      {
+        "intent": "greet",
+        "text": "在的"
+      },
+      {
+        "intent": "greet",
+        "text": "我能为您做些什么"
+      },
+      {
+        "intent": "check_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "我",
+            "entity": "check_person"
+          }
+        ],
+        "text": "我想值机"
+      },
+      {
+        "intent": "check_in",
+        "text": "能选座了吗"
+      },
+      {
+        "intent": "check_in",
+        "text": "如何办理值机"
+      },
+      {
+        "intent": "check_in",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "他人",
+            "entity": "check_person"
+          }
+        ],
+        "text": "可以为他人值机吗"
+      },
+      {
+        "intent": "check_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "我",
+            "entity": "check_person"
+          }
+        ],
+        "text": "我的航班可以值机了吗"
+      },
+      {
+        "intent": "tell_check_no",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "NH12456",
+            "entity": "flight_no"
+          }
+        ],
+        "text": "NH12456"
+      },
+      {
+        "intent": "tell_check_no",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "NB11235",
+            "entity": "flight_no"
+          }
+        ],
+        "text": "NB11235"
+      },
+      {
+        "intent": "tell_check_no",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "SC45612",
+            "entity": "flight_no"
+          }
+        ],
+        "text": "SC45612"
+      },
+      {
+        "intent": "tell_check_no",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "QS46542",
+            "entity": "flight_no"
+          }
+        ],
+        "text": "QS46542"
+      },
+      {
+        "intent": "tell_check_no",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "SD55546",
+            "entity": "flight_no"
+          }
+        ],
+        "text": "SD55546"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "今天",
+            "entity": "check_time"
+          }
+        ],
+        "text": "今天"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "明天",
+            "entity": "check_time"
+          }
+        ],
+        "text": "明天"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "后天",
+            "entity": "check_time"
+          }
+        ],
+        "text": "后天"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "大后天",
+            "entity": "check_time"
+          }
+        ],
+        "text": "大后天"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "下周一",
+            "entity": "check_time"
+          }
+        ],
+        "text": "下周一"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "下周二",
+            "entity": "check_time"
+          }
+        ],
+        "text": "下周二"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "下周三",
+            "entity": "check_time"
+          }
+        ],
+        "text": "下周三"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "这周一",
+            "entity": "check_time"
+          }
+        ],
+        "text": "这周一"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "这周二",
+            "entity": "check_time"
+          }
+        ],
+        "text": "这周二"
+      },
+      {
+        "intent": "tell_check_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "现在",
+            "entity": "check_time"
+          }
+        ],
+        "text": "现在"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "我",
+            "entity": "check_person"
+          }
+        ],
+        "text": "我"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "自己",
+            "entity": "check_person"
+          }
+        ],
+        "text": "自己"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "他人",
+            "entity": "check_person"
+          }
+        ],
+        "text": "他人"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "其他人",
+            "entity": "check_person"
+          }
+        ],
+        "text": "其他人"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "本人",
+            "entity": "check_person"
+          }
+        ],
+        "text": "本人"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "父母",
+            "entity": "check_person"
+          }
+        ],
+        "text": "父母"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "儿子",
+            "entity": "check_person"
+          }
+        ],
+        "text": "儿子"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "成人",
+            "entity": "check_person"
+          }
+        ],
+        "text": "成人"
+      },
+      {
+        "intent": "tell_check_person",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "儿童",
+            "entity": "check_person"
+          }
+        ],
+        "text": "儿童"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "flight_no",
+        "elements": [
+          "NH12456",
+          "NB11235",
+          "SC45612",
+          "QS46542",
+          "SD55546"
+        ]
+      },
+      {
+        "name": "check_time",
+        "elements": [
+          "今天",
+          "明天",
+          "后天",
+          "大后天",
+          "下周一",
+          "下周二",
+          "下周三",
+          "这周一",
+          "这周二"
+        ]
+      },
+      {
+        "name": "check_person",
+        "elements": [
+          "我",
+          "自己",
+          "他人",
+          "其他人",
+          "本人",
+          "父母",
+          "儿子",
+          "成人",
+          "儿童"
+        ]
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

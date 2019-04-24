@@ -1,0 +1,46 @@
+%YAML 1.1
+---
+actions:
+- utter_tell_result
+- utter_greet
+- tell_result
+- utter_ask_checkPerson
+- utter_ask_flightNo
+- utter_ask_time
+- utter_goodbye
+entities:
+- check_person
+- flight_no
+- check_time
+intents:
+- tell_check_no
+- goodbye
+- check_in
+- tell_check_time
+- greet
+- tell_check_person
+slots:
+  check_person:
+    type: text
+  check_time:
+    type: text
+  flight_no:
+    type: text
+templates:
+  utter_ask_checkPerson:
+  - text: 请问您为何人值机，自己还是他人？
+  utter_ask_flightNo:
+  - text: 提供一下航班号
+  - text: 请问您的航班号是多少
+  utter_ask_time:
+  - text: 请问您想何时值机
+  - text: 值机时间？
+  utter_goodbye:
+  - text: 再见
+  - text: 拜拜
+  - text: 下次见
+  utter_greet:
+  - text: 你好
+  - text: 有什么可以帮您的
+  utter_tell_result:
+  - text: 答案是{flight_no}...{check_time}...{check_person}
