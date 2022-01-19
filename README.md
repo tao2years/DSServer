@@ -7,4 +7,9 @@
 - 生成符合领域业务需求的对话机器人
 
 ## 系统功能模块图
-![系统功能模块图](https://github.com/tao2years/DSServer/blob/master/img/%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
+![系统功能模块
+图](https://github.com/tao2years/DSServer/blob/master/img/%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
+
+## 系统界面
+- ![行为配置]()
+- ![简单对话]()
